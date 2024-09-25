@@ -1,6 +1,6 @@
 <?php
 
-echo "function tanpa argumen<br><br>";
+echo "1. function tanpa argumen<br><br>";
 
 function lirik(){
     echo "  I'll love you 'til the day that I die<br>
@@ -20,7 +20,7 @@ lirik();
 
 echo "<hr>";
 
-echo "function dengan 3 argumen <br><br>";
+echo "2. function dengan 3 argumen <br><br>";
 
 function makanan($nama,$harga,$harga2) {
     echo "Harga makanan $nama ini, berkisar antara $harga - $harga2. <br>";
@@ -33,13 +33,12 @@ makanan("Bomboloni","Rp15.000","Rp21.000");
 echo "<hr>";
 
 
-echo "function yang mengembalikan nilai<br><br>";
+echo "3. function yang mengembalikan nilai<br><br>";
 
-function jumlahkan($bil1,$bil2){
-    return $bil1+$bil2;
+function jumlahkan($bil1,$bil2,$bil3){
+    return $bil1+$bil2+$bil3;
 }
 
-echo jumlahkan(5,2). "<br>";
-echo jumlahkan(7,9). "<br>";
-$jum=jumlahkan(6,4);
-echo $jum;
+echo jumlahkan(2,6,4). "<br>";
+echo jumlahkan(5,6,9). "<br>";
+echo jumlahkan(8,3,7). "<br>";
