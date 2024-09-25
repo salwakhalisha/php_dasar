@@ -89,6 +89,14 @@
                                             case "hari8":
                                                 include "harike8/index.php";
                                                 break;
+
+                                                case "link1";
+                                                include "harike8/link1.php";
+                                                break;
+
+                                                case "link2";
+                                                include "harike8/link2.php";
+                                                break;
                     
                 default:
                     include "welcome.php";

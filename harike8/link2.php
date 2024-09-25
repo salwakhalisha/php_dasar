@@ -1,6 +1,10 @@
 <?php
 
-$variabel=$_POST
-["kelas"];
+$variabel=$_POST["nama"];
+$kelas=$_POST["kelas"];
+$jk=$_POST["jk"];
 
-echo $variabel;
+
+echo "$variabel<br>";
+echo "$kelas<br>";
+echo "$jk<br>";
