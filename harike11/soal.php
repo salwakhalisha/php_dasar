@@ -56,8 +56,5 @@ echo "Tanggal lahir: " . $info['tanggal_lahir'] . "\n<br>";
 echo "Jenis Kelamin: " . $info['jenis_kelamin'] . "\n<br>";
 echo "Pensiun: " . $info['pensiun'] . "\n<br>";
 
-echo "<hr>";
-
-
 ?>
 
